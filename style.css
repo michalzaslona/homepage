@@ -1,0 +1,49 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #d1c394;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    /*'Lexend Giga', sans-serif;*/
+}
+
+header {
+    font-size: 20px;
+}
+
+#top {
+    font-size: 35px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: aquamarine;
+}
+
+h3 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p.tresc_skroty {
+    font-size: 14px;
+    background-color: #e0c8b6;
+}
+
+.tresc_notatki {
+    font-size: 14px;
+    background-color: #f5c49f;
+}
+
+a:hover {
+    background-color: violet;
+}
+
+nav a {
+    color: black;
+    background-color: gray;
+}

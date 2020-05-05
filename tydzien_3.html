@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona domowa Michała Zasłony</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="tydzien_2.html">Tydzień 2</a>
+            <a href="tydzien_3.html">Tydzień 3</a>
+        </nav>
+    </header>
+    <main>
+        <header id="top" style="color: beige;">Nauka HTML</header>
+        <img src="logo_html.png" alt="logo HTML" width="200px" height="200px">
+        <section id="notatki">
+            <h2>Moje notatki:</h2>
+
+            <article>
+                <h3>Tydzień 3:</h3>
+                <h4>Skróty klawiszowe w VSC:</h4>
+                <p class="tresc_skroty">
+                    <span style="color: red;">!+tab</span> -tworzy sekcję head i szablon <br>
+                </p>
+                <h4>Lekcja 03.03 WTF: HTML II:</h4>
+                <div class="tresc_notatki">
+                    <h5>Nowe znaczniki (Z) i atrybuty (A):</h5>
+                    <p>
+                        <b>Z br></b> - dodaje nową linię <br> <b>b> /b></b> - pogrubiony tekst tylko wizualnie bez wyjątkowego znaczenia (ang. bold) <br> <b>i> /i></b> - kursywa, italic <br/> <b>strong> /strong> </b>- pogrubia tekst, podkreśla wysoką
+                        istotność i powazność frazy w nim zawartej <br>
+                        <b>em> /em></b> - wyróznia tekst poprzez italicę, podkreśla, że tekst może mieć inne znaczenie <br> <b>a href = "target"> opis łącza /a></b> - przekierowuje na linki/łącza wewnątrz dokumentu lub na linki zewnątrz<br> <b>atrybut id</b>                        - identyfikuje element <br> <b>img src="" alt=""> </b> - znacznik jedno elementowy (jak br) do zamieszczenia zdjęcia
+                    </p>
+                </div>
+                <h4>Lekcja 03.04 Opowieść o wężu, kebabie, wielbłądzie i Pascalu:</h4>
+                <div class="tresc_notatki">
+                    <p>
+                        Sposoby zapisu w HTML: <br> camelCase <br> kebab-case <br> snake_case <br> PascalCase <br>
+                    </p>
+                </div>
+                <h4>Lekcja 03.05 WTF: CSS II:</h4>
+                <div class="tresc_notatki">
+                    <p>
+                        Atrybyt style możemy dodać <i>inline</i> w tagu/znaczniku i jest on wtedy nadrzędny nad style w sekcji head lub w nowym arkuszu css. Inline jest dobre jednorazowo lecz lepiej nie używać często bo jest chaos <br> <b> <u>PRAWDZIWE SELEKTORY #id i .klasy i elementy:
+                        </u>  </b> <br> nazwy klas piszemy przy pomocy kebab-case <br> id jest tylko jedno na stronie, dla wielu służy klasa <br> drzewko zganieżdżeń czyli możemy w css pisac np nav a i wtedy w css koloruje po zagnieżdżeniu <br> SPECYFICZNOŚĆ
+                        W CSS: <br> 1. !important 2. style = "" 3. #name 4. .name 5. element <br>
+                        <p style="color:red"> LEPIEJ TWORZYĆ KLASY I ID NIŻ ZAGNIEŻDŻENIA DO STYLOWANIA W CSSie</p>
+                        WWW.COOLORS.CO polecana strona do dobierania kolorów
+
+
+                    </p>
+                    <h4>Lekcja 03.06 Jak działa Internet i przeglądarka:</h4>
+                    <div class="tresc_notatki">
+                        <p>
+                            HTTP tzn hyper text transfer protocol czyli coś co otwiera nam jezyk html w przeglądarce. <br> HTTPS Secure - częsciej stosowany i lepiej jego używać <br> URL Uniform Resource Locator https:// (PROTOKÓŁ)cotenfrontend.pl (HOST
+                            (ADRES SERWERA)):443 (PORT)/ (ROOT-BARDZO WAŻNY) index.html(ŚCIĘŻKA DOSTĘPU DO ZASOBU)?parametr=wartość (PARAMETRY) <br> W Chrome są narzędzia deweloperskie. M.in. tam można znależć zasoby oraz kody odpowiedzi HTTP: <br> -200-
+                            wszystko OK -30x- szukasz w złym miejscu, przekieruję Cię w dobre (bo wiem gdzie) -404- nie mam tego czego potrzebujesz -505- bład wewnętrzny serwera, nic nie możemy zrobić
+                        </p>
+
+
+                    </div>
+                    <h4>Lekcja 03.07 WTF: JavaScript</h4>
+                    <div class="tresc_notatki">
+                        <p>
+                            JavaScript składa się z: wartości, operacji porównania, zmiennych, literałów, funkcji i obiektów <br> Wartości dla JS są tym czum liczby dla matematyki. <br> script zapisujemy na końcu kodu przed koncowym znacznikiem body lub
+                            w oddzielnym dokumenci .js. <br> alert to funkcja w JS. Funkcje zapisuje że: funkcja nawias 'wartość' nawias <br> Console.log - zwraca nam to co wpiszemy w kosoli (alt+cmd+I). <br> console.log(`Nazywam się ${firstName} i mam ${age} lat`); `ten znak robimy skrótem alt+pionowa kreska przy Z.  
+                        </p>
+                    </div>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>Strona domowa Michała Zasłony &copy; Wszelkie prawa zastrzeżone <a href="#top">Wróc do góry strony</a></footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
